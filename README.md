@@ -36,7 +36,11 @@ https://www.mongodb.com/try/download/compass
   
   ![image](https://github.com/user-attachments/assets/adfdcfc7-5bcd-4a74-a305-8325d906e31d)
 
-  - username: root  senha: example
+  - Caso não esteja aparecendo a Connection Type (mongo), será necessário instalar a providers package do Mongodb
+  - Abra o prompt da sua máquina novamente e copie os seguintes códigos
+  - cd (caminho da pasta descompactada)
+  - pip install apache-airflow-providers-mongo
+
   - 
  ![image](https://github.com/user-attachments/assets/0075fd06-384c-4386-b77f-579c5b170fa9)
 
