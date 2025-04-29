@@ -43,8 +43,9 @@ https://www.mongodb.com/try/download/compass
   - pip install apache-airflow-providers-mongo
   - Reinicie o AirFlow
   - docker-compose restart airflow-apiserver
+    Pronto problema resolvido!
 
-  - 
+    No campo Extra Fields JSON adicione o código abaixo:
  ![image](https://github.com/user-attachments/assets/0075fd06-384c-4386-b77f-579c5b170fa9)
 
 Código:
@@ -54,6 +55,14 @@ Código:
   "ssl": false,
   "allow_insecure": null
 }
+
+Depois de ter executados todos esses passos seu MongoDB estará conectado no AirFlow. Agora vamos para a configuração do Mongo Compass.
+- Após instalar o Compass, basta digitar a url : mongodb://root:example@localhost:27017/admin
+  ![image](https://github.com/user-attachments/assets/cdbc200b-d4e8-4a81-9a2f-54497d5b6e59)
+
+- Pronto a instalação e configuração de todos foi concluída.
+  
+
 
 
 
