@@ -36,10 +36,13 @@ https://www.mongodb.com/try/download/compass
   
   ![image](https://github.com/user-attachments/assets/adfdcfc7-5bcd-4a74-a305-8325d906e31d)
 
-  - Caso não esteja aparecendo a Connection Type (mongo), será necessário instalar a providers package do Mongodb
+  - Caso não esteja aparecendo a Connection Type (mongo), será necessário instalar a providers package do Mongodb:
   - Abra o prompt da sua máquina novamente e copie os seguintes códigos
   - cd (caminho da pasta descompactada)
+  - docker exec -it airflow-airflow-apiserver-1 bash
   - pip install apache-airflow-providers-mongo
+  - Reinicie o AirFlow
+  - docker-compose restart airflow-apiserver
 
   - 
  ![image](https://github.com/user-attachments/assets/0075fd06-384c-4386-b77f-579c5b170fa9)
