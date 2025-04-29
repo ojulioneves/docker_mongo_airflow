@@ -14,9 +14,13 @@ https://www.mongodb.com/try/download/compass
 
 4° Passo:
 - Abram o prompt da máquina de vocês e digitem os códigos, respectivamente:
+  
 1 - cd (caminho da pasta com arquivos)
+
 2 - docker compose up airflow-init
+
 3 - docker compose up -d
+
 - Pront seu ambiente já está criado!
 - Para acessar o servido web do AirFlow basta entrar na porta que ele está ocupando, ou você pode clicar nela no própio docker
 - ![image](https://github.com/user-attachments/assets/ce1a2744-c7f9-4b8f-bc09-655a460fc330)
