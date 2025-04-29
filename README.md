@@ -15,7 +15,7 @@ https://www.mongodb.com/try/download/compass
 4° Passo:
 - Abram o prompt da máquina de vocês e digitem os códigos, respectivamente:
   
-   1 - cd (caminho da pasta com arquivos)
+   1 - cd (caminho da pasta descompactada com os arquivos)
 
    2 - docker compose up airflow-init
 
@@ -38,7 +38,7 @@ https://www.mongodb.com/try/download/compass
 
   - Caso não esteja aparecendo a Connection Type (mongo), será necessário instalar a providers package do Mongodb:
   - Abra o prompt da sua máquina novamente e copie os seguintes códigos
-  - cd (caminho da pasta descompactada)
+  - cd (caminho da pasta descompactada com os arquivos)
   - docker exec -it airflow-airflow-apiserver-1 bash
   - pip install apache-airflow-providers-mongo
   - Reinicie o AirFlow
