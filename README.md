@@ -1,6 +1,9 @@
 # docker_mongo_airflow
 Repositório com os arquivos necessários para e instalação e configuração do banco de dados MongoDB no Docker, instalação e configuração da interface gráfica Mongo Compass e a instalação e configuração do Apache Airflow
 
+
+OBS:: O LOGIN E SENHA DO AIRFLOW E OS CÓDIGOS ESTÃO EM INGLÊS, NÃO TRADUZA A PÁGINA.
+
 1° Passo:
 -Instalação do Docker no site oficial
 https://www.docker.com
