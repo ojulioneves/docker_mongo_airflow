@@ -25,10 +25,15 @@ https://www.mongodb.com/try/download/compass
 
   5° Passo:
   -Configurando o MongoDB no AirFlow
+  
   ![image](https://github.com/user-attachments/assets/976f4f69-edca-4008-8999-42a720ca3e42)
+  
   2 - No canto superior direito vai ter a caixa "Add Connection", nela vocês vão preencher com as seguintes configurações
+  
   ![image](https://github.com/user-attachments/assets/adfdcfc7-5bcd-4a74-a305-8325d906e31d)
+
   - username: root  senha: example
+  - 
  ![image](https://github.com/user-attachments/assets/0075fd06-384c-4386-b77f-579c5b170fa9)
 
 Código:
