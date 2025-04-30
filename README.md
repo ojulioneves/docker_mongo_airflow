@@ -46,6 +46,7 @@ https://www.mongodb.com/try/download/compass
   - pip install apache-airflow-providers-mongo
   - Reinicie o AirFlow
   - docker-compose restart airflow-apiserver
+    
     Pronto problema resolvido!
 
     No campo Extra Fields JSON adicione o código abaixo:
